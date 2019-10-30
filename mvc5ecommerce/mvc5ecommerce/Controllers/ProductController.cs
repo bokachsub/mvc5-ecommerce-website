@@ -11,7 +11,13 @@ namespace mvc5ecommerce.Controllers
         // GET: Product
         public ActionResult Index()
         {
-            return View();
+            return View("List");
         }
+
+        //[Route ("product/{productName}")]
+        //public ActionResult Detail(string productName)
+        //{
+        //    //lookup the product name
+        //}
     }
 }
