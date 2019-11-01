@@ -8,7 +8,7 @@ namespace mvc5ecommerce
     {
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
-            filters.Add(new HandleErrorAttribute());
+            filters.Add(new CustomExceptionHandler());
             filters.Add(new LogRequestFilter());
         }
     }
