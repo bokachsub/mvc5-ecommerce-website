@@ -11,8 +11,7 @@ namespace mvc5ecommerce.Controllers
     public class HomeController : Controller
     {
         public ActionResult Index()
-        {
-            throw new System.Exception();
+        {            
             return View();
         }
 
